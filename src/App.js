@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
 import Detail from './Detail';
-import client from './apolloC';
+import client from './Apollo/Client';
 import { ApolloProvider } from 'react-apollo';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
